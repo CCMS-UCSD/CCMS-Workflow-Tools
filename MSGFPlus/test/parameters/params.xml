@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameters>
+<parameter name="FDR.FDR">0.01</parameter>
+<parameter name="FDR_precursor.FDR">0.01</parameter>
+<parameter name="FDR_protein.FDR">0.01</parameter>
+<parameter name="KL_FILTER">0</parameter>
+<parameter name="PARALLELISM">40</parameter>
+<parameter name="TOPK">5</parameter>
+<parameter name="c13_nnet.c13">1</parameter>
+<parameter name="c13_nnet.msgfPlusC13">0,1</parameter>
+<parameter name="c13_nnet.msgfPlusNnet">1</parameter>
+<parameter name="c13_nnet.nnet">1</parameter>
+<parameter name="correct_precursor_masses">No</parameter>
+<parameter name="cysteine_protease.cysteine">c57</parameter>
+<parameter name="cysteine_protease.protease">Trypsin</parameter>
+<parameter name="db.contaminants">on</parameter>
+<parameter name="desc">yeast, 50 spectra only</parameter>
+<parameter name="email">jwertz01@gmail.com</parameter>
+<parameter name="fragmentation.fragmentation">CID</parameter>
+<parameter name="instrument.instrument">Low-res LCQ/LTQ</parameter>
+<parameter name="isobaric_tag">None</parameter>
+<parameter name="ptm.OXIDATION">on</parameter>
+<parameter name="ptm.mods">1</parameter>
+<parameter name="seq_on_server">f.nuno/Databases/uniprot-organism_cerevisiae-reference_set_2013-07-24_CC.fasta;</parameter>
+<parameter name="spec_on_server">f.jswertz/specs_ms_bdaabb_50spectra.mgf;</parameter>
+<parameter name="task">ccd4ed4879104a70bb5785e2380f5d83</parameter>
+<parameter name="tolerance.PM_tolerance">1.5</parameter>
+<parameter name="tolerance.PM_tolerance_tolerance_unit.PM_unit">1.5Da</parameter>
+<parameter name="tolerance_unit.PM_unit">Da</parameter>
+<parameter name="upload_file_mapping">spec-00000.mgf|jswertz/specs_ms_bdaabb_50spectra.mgf</parameter>
+<parameter name="upload_file_mapping">fasta-00000.fasta|nuno/Databases/uniprot-organism_cerevisiae-reference_set_2013-07-24_CC.fasta</parameter>
+<parameter name="user">jswertz</parameter>
+<parameter name="uuid">1E5AFDAA-5C21-0001-597D-3F88194E1000</parameter>
+<parameter name="workflow">MSGF-PLUS-AMBIGUITY</parameter>
+<parameter name="workflow_version">1.4.9</parameter>
+</parameters>
